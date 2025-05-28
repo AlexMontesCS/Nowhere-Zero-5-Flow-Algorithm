@@ -1,4 +1,6 @@
-# Nowhere-Zero 5-Flow Algorithm
+# Nowhere-Zero 5-Flow Algorithm WORK IN PROGRESS
+
+> as of now it does not implement the algorithm properly, this is something I realized shortly after making it. will fix ASAP
 
 This project implements a constructive algorithm proving that every **bridgeless cubic graph** admits a **nowhere-zero 5-flow**. The method is based on the original research of **Alexander J. Montes** and includes a verified Python implementation.
 
