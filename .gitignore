@@ -1,0 +1,10 @@
+
+# Ignore everything
+*
+
+# But keep these files
+!README.md
+!main.py
+
+# Keep .gitignore itself
+!.gitignore
