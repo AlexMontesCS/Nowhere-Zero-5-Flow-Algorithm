@@ -6,4 +6,7 @@ requires-python = ">=3.11"
 dependencies = [
     "networkx>=3.4.2",
     "numpy>=2.2.6",
+    "sympy>=1.14.0",
+    "fpylll>=0.6.4",
+    "cysignals>=1.12.3",
 ]

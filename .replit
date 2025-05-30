@@ -1,9 +1,9 @@
-entrypoint = "analyze_all.py"
+entrypoint = "main.py"
 modules = ["python-3.11"]
 
 [nix]
 channel = "stable-24_05"
-packages = ["unzipNLS"]
+packages = ["fplll", "glibcLocales", "gmp", "mpfr", "pari", "pkg-config", "unzipNLS"]
 
 [unitTest]
 language = "python3"
@@ -12,5 +12,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "analyze_all.py"]
+run = ["python3", "main.py"]
 deploymentTarget = "cloudrun"
